@@ -1,0 +1,21 @@
+# Dart-specific files
+.dart_tool/
+.packages
+.pub/
+/build/
+/test/
+
+# IDE files
+.idea/
+.vscode/
+
+# Other
+*.iml
+*.log
+*.log.*
+*.test
+*.test.*
+*.stackdump
+*.tmp
+*.bak
+*.swp

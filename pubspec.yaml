@@ -1,0 +1,20 @@
+name: finam_grpc_demo
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.0.6
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+  finam_proto_demo: 
+    git: git@github.com:pf3rd1na/finam_proto_demo.git
+  grpc: ^3.2.3
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
+
+publish_to: 'none'
