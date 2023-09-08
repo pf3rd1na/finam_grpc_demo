@@ -59,6 +59,7 @@ class DemoService extends DemoServiceBase {
   Future<Exam> getExam(ServiceCall call, Student request) async {
     final exam = Exam()..id = 1;
     exam.questions.addAll(questionsDb);
+    Future.delayed(Duration(seconds: 5));
     return exam;
   }
 
